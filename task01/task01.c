@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <limits.h>
+
+typedef unsigned short meter_t;
+
+unsigned int consumption(meter_t previous, meter_t current)
+{
+    /* Unsigned 16-bit register arithmetic: valid when at most one rollover occurs. */
+    return (unsigned short)(current - previous);
+}
+
+int main(void)
+{
+    printf("sizeof(meter_t) = %zu bytes, maximum reading = %u\n",
+           sizeof(meter_t), (unsigned)USHRT_MAX);
+    printf("Consumption: %u units\n", consumption(1200, 1530));
+    printf("Consumption: %u units\n", consumption(65400, 120));
+    return 0;
+}
