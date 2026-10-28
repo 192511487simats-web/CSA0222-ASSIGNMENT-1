@@ -2,8 +2,8 @@
 
 ## Student Details
 
-* **Student Name:** DHINESH KUMAR GOVINDARAJ
-* **Register Number:** YOUR_REGISTER_NUMBER
+* **Student Name:** DHINESH KUMAR G
+* **Register Number:** 192511487
 * **Course:** C Programming
 * **Assignment:** Assignment 1 — CO1
 * **GitHub Repository:** PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE
