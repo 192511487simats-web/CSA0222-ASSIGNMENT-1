@@ -6,7 +6,7 @@
 * **Register Number:** 192511487
 * **Course:** C Programming
 * **Assignment:** Assignment 1 — CO1
-* **GitHub Repository:** PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE
+* **GitHub Repository:**https://github.com/192511487simats-web/CSA0222-ASSIGNMENT-1
 
 ## Compiler Information
 
